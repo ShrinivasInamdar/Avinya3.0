@@ -577,6 +577,9 @@ body {
     margin-top: -1rem;
     width: 95%;
     margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .sponsors{
     flex-direction: row;
