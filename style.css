@@ -292,13 +292,17 @@ body {
 .sponsorsa{
   display:flex;
   flex-direction: row;
-  flex-wrap:nowrap;
+  flex-wrap:wrap;
   flex: 0 0 100%;
   color: white;
   width: 50%;
   margin-bottom: 7rem;
   margin: auto;
  
+}
+#sponsora-logo1{
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 .sponsorsax{
   flex-direction: row;
@@ -325,8 +329,15 @@ body {
   width: 100%;
 }
 
+.sponsora-logo {
+  flex: 1 1 45%; /* 2 columns */
+  margin: 10px;
+}
 .sponsora-logo img{
   margin: .2rem;
+  width: 100%; /* Full width inside column */
+    height: auto;
+    max-width: 150px;
 }
 .event-card h1 {
   margin: 0;
@@ -420,6 +431,7 @@ body {
   width: 50%;
   margin: auto;
   padding: 0;
+  text-align: center;
 }
 .dbce-logo {
   z-index: 4;
@@ -610,14 +622,22 @@ body {
    
   }
   .sponsorsa{
-    flex-direction: row;
-    align-items: flex-start;
-    margin-top: 0;
+    display: flex;
     flex-wrap: wrap;
-    flex:5;
-    align-items: center;
-    justify-self: center;
+    justify-content: center;
   }
+  #sponsora-logo1{
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .sponsora-logo{
+    flex: 1 1 100%;
+    margin: 10px;
+  }
+.sponsora-logo img{
+  max-width: 100%;
+  height: auto;
+}
   .sponsorax{
     width: 100%;
   }
