@@ -223,7 +223,6 @@ body {
   margin: auto;
   border-radius: 2rem;
   margin-bottom: 7rem;
-
 }
 .sponsors{
   color: white;
@@ -577,9 +576,6 @@ body {
     margin-top: -1rem;
     width: 95%;
     margin-bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   .sponsors{
     flex-direction: row;
