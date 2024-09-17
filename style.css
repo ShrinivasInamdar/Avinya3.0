@@ -248,7 +248,6 @@ body {
   text-align: center;
   justify-self: center;
   border-radius: 2rem;
-  overflow: hidden;
   
   margin: auto;
 
@@ -300,10 +299,7 @@ body {
   margin: auto;
  
 }
-#sponsora-logo1{
-  padding-top: 50px;
-  padding-bottom: 40px;
-}
+
 .sponsorsax{
   flex-direction: row;
   color: white;
