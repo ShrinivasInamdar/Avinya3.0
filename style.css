@@ -130,6 +130,10 @@ body {
   -webkit-text-fill-color: transparent;
   animation: gradient 5s ease infinite; */
 }
+#mediapartner{
+  height: 150px;
+  width: 150px;
+}
 
 @keyframes gradient {
   0% {
